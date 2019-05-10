@@ -9,11 +9,9 @@
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{float}
-\usepackage{hyperref}
 \usepackage{multirow}
 \usepackage{verbatim}
 \usepackage{pdfpages}
-\usepackage[document]{ragged2e}
 \newcommand{\HRule}{\rule{\linewidth}{0.1mm}}
 \renewcommand{\baselinestretch}{1.0} 
 \newcommand{\tabitem}{~~\llap{\textbullet}~~}
@@ -35,6 +33,7 @@
  left=20mm,
  top=10mm,
  }
+\usepackage{hyperref}
 %\bibliographystyle{abbrvnat}
 \bibliographystyle{agsm}
 \setcitestyle{authoryear,open={(},close={)}}
@@ -59,15 +58,16 @@ MOTION\\
 \begin{figure}[h]
     \includegraphics[scale = 2.4]{ETA-logga.png}
 \end{figure}
-{\LARGE \textbf{Motion-Rubrik}}
+{\LARGE \textbf{Motion-Rubrik}}         % Rubrik
 \newline
-\hrulefill
+\noindent\rule{\textwidth}{1pt}
 
-\section*{Bakgrund}
+\section*{Bakgrund}                     % Din text
 \paragraph{}
 Anledning och motivering osv.
 
 %\section*{Förslag}
+%\paragraph{}
 %Ditt förslag
 
 \section*{Yrkande}
@@ -81,11 +81,13 @@ Med ovanstående som bakgrund yrkar motionären
 \end{itemize}
 
 %\section*{Förtydligande}
+%\paragraph{}
 %Text som förtydligar motionen
 
 \paragraph{Undertecknat} Emil Emilsson
 
 %\section*{Bilagor}
+%\paragraph{}
 %Bilagor så som stora bilder eller datablad
 
 \end{document}
