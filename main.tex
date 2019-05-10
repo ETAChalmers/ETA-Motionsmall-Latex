@@ -29,10 +29,9 @@
 \usepackage{lipsum, babel}
 \usepackage{wrapfig}
 \usepackage{geometry}
-\usepackage{titlesec}}
+\usepackage{titlesec}
  \geometry{
  a4paper,
- total={170mm,257mm},
  left=20mm,
  top=10mm,
  }
@@ -43,7 +42,7 @@
 %===================================================
 %   Ovan är importerade packet av diverse slag, för den som vill veta vad 
 %   alla gör/ger är det bara att söka på valfri sökmotor om dessa.
-%   (Blir annars mycket text som ingen vill läsa av er kommer läsa)
+%   (Blir annars mycket text som ingen av er kommer läsa)
 %===================================================
 
 \begin{document}
@@ -52,16 +51,15 @@
 \titlespacing{\subsubsection}{0pt}{\parskip}{-\parskip}
 
 \flushright
-% Fyll i datum och motion
 MOTION\\
-2018-XX-X
+\today
 
 \flushleft
 
 \begin{figure}[h]
     \includegraphics[scale = 2.4]{ETA-logga.png}
 \end{figure}
-{\LARGE \textbf{Motion-Överskrift}}
+{\LARGE \textbf{Motion-Rubrik}}
 \newline
 \hrulefill
 
@@ -69,7 +67,7 @@ MOTION\\
 \paragraph{}
 Anledning och motivering osv.
 
-%\paragraph{Förslag}
+%\section*{Förslag}
 %Ditt förslag
 
 \section*{Yrkande}
@@ -78,17 +76,16 @@ Med ovanstående som bakgrund yrkar motionären
 
 \begin{itemize}
   \setlength\itemsep{0.2em}
-  \item något
-  \item något mer
+  \item \textbf{att} något
+  \item \textbf{att} något mer
 \end{itemize}
 
-%\paragraph{Förtydligande}
-%text som förtydligar
+%\section*{Förtydligande}
+%Text som förtydligar motionen
 
-\paragraph{Undertecknat}
-:
-\\(Ditt namn)
+\paragraph{Undertecknat} Emil Emilsson
 
-
+%\section*{Bilagor}
+%Bilagor så som stora bilder eller datablad
 
 \end{document}
